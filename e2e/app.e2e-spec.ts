@@ -9,6 +9,6 @@ describe('proplistings App', () => {
 
   it('should display message saying app works', () => {
     page.navigateTo();
-    expect<any>(page.getParagraphText()).toEqual('Welcome to app');
+    expect<any>(page.getParagraphText()).toEqual('Welcome to app!');
   });
 });
